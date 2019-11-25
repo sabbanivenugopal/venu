@@ -18,7 +18,7 @@ public class HelloWorldAction extends Action{
 		HelloWorldForm helloWorldForm = (HelloWorldForm) form;
 		helloWorldForm.setMessage(" Hello World! Struts");
 		
-		return mapping.findForward("success");
+		return mapping.findForward(" success");
 	}
 	
 }
